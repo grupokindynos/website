@@ -5,7 +5,6 @@ import Image from "next/image";
 const navigation = [
   { name: "What We Do", href: "/#what-we-do" },
   { name: "About Us", href: "/#about-us" },
-  { name: "Contact", href: "/#contact" },
 ];
 
 export const Header = () => {
@@ -80,14 +79,14 @@ export const Header = () => {
             </div>
           </div>
 
-          <Disclosure.Panel className="sm:hidden uppercase bg-blue">
+          <Disclosure.Panel className="sm:hidden uppercase">
             <div className="px-2 pt-2 pb-3 space-y-1">
               {navigation.map((item) => (
                 <Disclosure.Button
                   key={item.name}
                   as="a"
                   href={item.href}
-                  className="text-sm mx-0.5 px-1.5 py-1 text-grey cursor-pointer hover:text-grey uppercase block"
+                  className="text-sm mx-0.5 px-1.5 py-1 text-grey cursor-pointer hover:text-light-grey uppercase block"
                 >
                   {item.name}
                 </Disclosure.Button>

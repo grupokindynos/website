@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <div>
       <div className="w-full bg-light-blue py-3">
-        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 w-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6 w-full mt-7">
           <div className="px-24 md:px-20 xl:px-10">
             <Link href="/" passHref>
               <a>
