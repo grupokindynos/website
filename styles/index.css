@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,body {
+    min-height: 100vh;
+}
+
+body {
+    z-index: 0;
+    font-family: "Nunito", sans-serif;
+    background: #73C4DA radial-gradient(at bottom left, #DAECD6, #73C4DA) no-repeat;
+    background-size: 100%;
+    position: relative;
+}
