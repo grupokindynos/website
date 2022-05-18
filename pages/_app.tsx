@@ -1,6 +1,7 @@
 import { AppProps } from "next/app";
 import { Fragment } from "react";
 import Head from "next/head";
+import "../styles/index.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -13,20 +14,17 @@ function MyApp({ Component, pageProps }: AppProps) {
           name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
         />
-        <title key="title">
-          Bitmon World | Play, Breed, Trade and Fight with decentralized
-          monsters
-        </title>
+        <title key="title">Kindynos | High Tech Developers</title>
 
         <meta
           key="description"
           name="description"
-          content="Play, Breed, Trade and Fight with decentralized monsters"
+          content="High Tech Developers"
         />
 
         <meta
           name="application-name"
-          content="Bitmon World | Play, Breed, Trade and Fight with decentralized monsters"
+          content="Kindynos | High Tech Developers"
         />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta
@@ -35,7 +33,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         />
         <meta
           name="apple-mobile-web-app-title"
-          content="Bitmon World | Play, Breed, Trade and Fight with decentralized monsters"
+          content="Kindynos | High Tech Developers"
         />
 
         <meta name="format-detection" content="telephone=no" />
@@ -47,23 +45,23 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta
           key="twitter:title"
           name="twitter:title"
-          content="Bitmon World | Play, Breed, Trade and Fight with decentralized monsters"
+          content="Kindynos | High Tech Developers"
         />
         <meta
           key="twitter:url"
           name="twitter:url"
-          content="https://bitmon.io"
+          content="https://kindynos.mx"
         />
 
         <meta
           key="twitter:description"
           name="twitter:description"
-          content="Play, Breed, Trade and Fight with decentralized monsters"
+          content="High Tech Developers"
         />
         <meta
           key="twitter:image"
           name="twitter:image"
-          content="https://bitmon.io/ms-icon-310x310.png"
+          content="https://kindynos.mx/ms-icon-310x310.png"
         />
         <meta
           key="twitter:creator"
@@ -74,18 +72,18 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta
           key="og:site_name"
           property="og:site_name"
-          content="Bitmon World | Play, Breed, Trade and Fight with decentralized monsters"
+          content="Kindynos | High Tech Developers"
         />
-        <meta key="og:url" property="og:url" content="https://bitmon.io" />
+        <meta key="og:url" property="og:url" content="https://kindynos.mx" />
         <meta
           key="og:image"
           property="og:image"
-          content="https://bitmon.io/ms-icon-310x310.png"
+          content="https://kindynos.mx/ms-icon-310x310.png"
         />
         <meta
           key="og:description"
           property="og:description"
-          content="Play, Breed, Trade and Fight with decentralized monsters"
+          content="High Tech Developers"
         />
       </Head>
       <Component {...pageProps} />

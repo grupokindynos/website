@@ -2,14 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: 'All Round Gothic';
+    src: url('./fonts/all-round-gothic.ttf');
+}
+
+@font-face {
+    font-family: 'Gothic';
+    src: url('./fonts/gothic.woff2');
+}
+
 html,body {
     min-height: 100vh;
 }
 
 body {
     z-index: 0;
-    font-family: "Nunito", sans-serif;
-    background: #73C4DA radial-gradient(at bottom left, #DAECD6, #73C4DA) no-repeat;
+    font-family: "Gothic", sans-serif;
     background-size: 100%;
     position: relative;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "All Round Gothic", sans-serif;
 }
