@@ -66,7 +66,7 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta
           key="twitter:creator"
           name="twitter:creator"
-          content="@BitmonWorld"
+          content="@KindynosMx"
         />
         <meta key="og:type" property="og:type" content="website" />
         <meta
