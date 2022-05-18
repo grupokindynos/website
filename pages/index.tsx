@@ -96,11 +96,7 @@ export default function Home(): JSX.Element {
             <p className="text-center text-4xl mt-4 text-blue">About Us</p>
             <h1 className="text-center text-4xl mt-4">Technical Solutions</h1>
             <p className="w-2/3 text-center mx-auto mt-4">
-              Founded in 2017, Kindynos is a group of developers committed to
-              find technical solutions for every business model.
-            </p>
-            <p className="w-2/3 text-center mx-auto mt-4">
-              All our work is perfectly crafted for every need.
+              Founded in 2017, Kindynos is an organization created to produce and deploy high quality technical solutions for enterprises or individuals. <br/> <br/> Focused on Blockchain technology, decentralized systems, fintech and payment processors we are confident we can find a solution for every technical need.
             </p>
           </div>
         </div>
